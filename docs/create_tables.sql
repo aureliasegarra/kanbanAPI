@@ -73,7 +73,7 @@ INSERT INTO "list" ("name")
 VALUES ('Première liste' );
 
 INSERT INTO "card" ("content", "color", "list_id")
-VALUES ('Carte 1', 1), -- id 1
+VALUES ('Carte 1', 1, 1), -- id 1
        ('2ème carte', '#c1e7ff', 1); -- id 2
 
 INSERT INTO "tag" ("name", "color")
