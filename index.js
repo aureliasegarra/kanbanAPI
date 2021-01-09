@@ -2,6 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const express = require('express');
 const router = require('./app/router');
+// Ajout du cors
 const cors = require('cors');
 const multer = require('multer'); // c'est un body parser, parcourir le body de request et permet à l'api de comprendre ce qu'elle reçoit en données dans le formData
 
